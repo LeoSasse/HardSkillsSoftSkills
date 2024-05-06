@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+}
+
+.titulo{
+    text-align: center;
+    color: aqua;
+    }
+    
+.container{
+    text-align: center; /*Centralizar as divs dentro do container*/
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.box {
+    display: inline-block; /* Mudanca para flex ou block*/
+    flex-direction: column; /* Colocar o texto abaixo do nome*/
+    justify-content: center; /* Centralizar o conteúdo horizontalmente*/
+    align-items: center; /* Centralizar o conteúdo verticalmente*/
+    width: 250px;
+    height: 200px;
+    background-color: #918d8d;
+    margin: 0 auto; /* Espacamento entre o icone e o texto*/
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 47, 255);
+    text-align: center;
+    background-color: rgb(6, 34, 34);
+}
+
+.box p {
+    color: white; 
+    font-size: 0.8em;
+    margin-top: auto;/* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center;
+}
+
+.box h6 {
+ margin-top: 10px; /* Ajuste este valor conforme necessário */
+}
+
+
+
+
+
